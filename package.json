@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "author": "junjia.chen <junjia.chen@narwal.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@antv/g": "^6.0.0",
+    "@antv/s2": "^2.0.0-next.15",
+    "@antv/s2-react": "^2.0.0-next.14",
+    "antd": "^5.12.2",
+    "umi": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
